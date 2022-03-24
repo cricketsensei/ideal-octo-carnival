@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+<script src="game_login.js"></script>
+</head>
+<body>
+	<center>
+		<h1 class="btn btn-success"><b>Guess The Word Game</b></h1>
+		<div class="col-lg-4 col-md-8 col-sm-12 col-xs-12 div1">
+			<h3>Player 1 Login For Game</h3>
+			<label>User Name:</label>
+			<input placeholder="Write Your Name - You Are Player 1" class="form-control" id="player1_input">
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class="col-lg-4 col-md-8 col-sm-12 col-xs-12 div2">
+			<h3>Player 2 Login For Game</h3>
+			<label>User Name:</label>
+			<input placeholder="Write Your Name - You Are Player 2" class="form-control" id="player2_input">
+		</div>
+		<br>
+		<button onclick="login()" class="btn btn-primary loginbutton">Log In</button>
+	</center>
+</body>
+</html>
